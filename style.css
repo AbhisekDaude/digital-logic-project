@@ -237,6 +237,17 @@ background-color: red;
 border-radius: 10px;
 border:2px solid rgb(103, 59, 59);
 margin-top: 10px;
-margin-left: 80px;
+margin-left: 5px;
 font-size: 20px;
+}
+.zero{
+    height: 30px;
+    width: 80px;
+    font-size: x-large;
+    color: whitesmoke;
+    background-color:blue;
+    border: none;
+    border-radius: 50px;
+    border: 2px solid rgb(102, 102, 182);
+    margin-left: 80px;
 }

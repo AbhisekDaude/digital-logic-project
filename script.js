@@ -9,6 +9,7 @@ let btn7=document.querySelector(".button7");
 let btn8=document.querySelector(".button8");
 let btn9=document.querySelector(".button9");
 let clear=document.querySelector(".clear");
+let zero=document.querySelector(".zero");
 
 //collection of the divs for number 
 let f=document.querySelector(".f");
@@ -104,8 +105,18 @@ btn9.addEventListener("click",function(){
     f.style.backgroundColor="red";
 })
 
+zero.addEventListener("click",function(){
+    expect0()
+    c.style.backgroundColor="red";
+    b.style.backgroundColor="red";
+    a.style.backgroundColor="red"; 
+    e.style.backgroundColor="red";
+    ddiv.style.backgroundColor="red";
+    f.style.backgroundColor="red";
+})
+
 clear.addEventListener("click",function(){
-    
+    expect0()
     c.style.backgroundColor="";
     b.style.backgroundColor="";
     a.style.backgroundColor=""; 
@@ -168,6 +179,13 @@ function expect9(){
   
    
     e.style.backgroundColor="";
+   
+}
+
+function expect0(){
+  
+   
+    gdiv.style.backgroundColor="";
    
 }
 
